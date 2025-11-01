@@ -1,0 +1,13 @@
+# Node and tooling
+node_modules/
+.DS_Store
+*.log
+
+# Builds and caches
+.cache/
+dist/
+build/
+.tmp/
+
+# OS
+Thumbs.db

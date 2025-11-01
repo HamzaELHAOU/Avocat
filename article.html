@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Article — Cabinet de Maître Adiba Idrissi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="index.html" class="nav-link" style="padding-left:0">← Retour</a>
+      </div>
+      <nav class="nav">
+        <a href="index.html#articles" class="nav-link">Articles</a>
+        <a href="index.html#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <article id="article" class="article-detail fade-in">
+        <header class="article-header slide-up">
+          <h1 class="article-title"></h1>
+          <div class="article-meta"></div>
+        </header>
+        <figure class="article-cover fade-in"><img alt="Image de couverture" /></figure>
+        <div class="prose" id="articleBody"></div>
+        <div class="article-back">
+          <a class="btn btn-outline" href="index.html#articles">← Retour aux articles</a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Maître Adiba Idrissi — Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="article.js"></script>
+</body>
+</html>
